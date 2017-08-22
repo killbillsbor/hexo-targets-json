@@ -19,7 +19,7 @@ The result looks like this:
 ## Install
 
 ```
-$ yarn add hexo_targets_json
+$ yarn add hexo-targets-json
 ```
 
 ## Configure
