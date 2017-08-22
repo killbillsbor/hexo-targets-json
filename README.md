@@ -5,14 +5,14 @@ This small plugin generates `targets.json` file which is necessary for monitorin
 The result looks like this:
 ```
 [{
-	"labels": {
-		"project": "project-name"
-	},
-	"targets": [
-		"https://yoursite.com/root/lang/post-slug/",
-		"optional-base/lang/post-slug/",
-		...
-	]
+  "labels": {
+    "project": "project-name"
+  },
+  "targets": [
+    "https://yoursite.com/root/lang/post-slug/",
+    "optional-base/lang/post-slug/",
+    ...
+    ]
 }]
 ```
 
@@ -28,7 +28,7 @@ It's necessary to add `monitoring` section to your `_config.yml`:
 ```
 # Monitoring
 monitoring:
-	base: optional-base/
+  base: optional-base/
   project: project-name
 ```
 
