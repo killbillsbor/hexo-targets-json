@@ -1,0 +1,16 @@
+# Generated stuff
+public
+logs
+debug.log
+.DS_STORE
+npm-debug.log
+npm-debug.log.*
+pids
+*.pid
+*.seed
+
+# Dev folder
+node_modules
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
